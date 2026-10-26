@@ -4,6 +4,14 @@ PhoneGuard 是一个供个人安装使用的 Windows + Android 双端安全检�
 
 当前版本为 **0.1.0 预览版**。它检查应用申请的权限组合和安装来源，给出人工复查线索。它不扫描文件内容、不使用恶意软件签名库，也不能保证发现病毒或证明应用安全。分数不是病毒判定。卸载始终由用户在手机系统界面确认。
 
+## 下载
+
+- [Windows EXE](downloads/PhoneGuard.exe)
+- [Android APK](downloads/PhoneGuard.apk)
+- [EXE + APK + 说明的 ZIP 包](downloads/PhoneGuard-0.1.0.zip)
+
+文件校验值见 [SHA256SUMS.txt](downloads/SHA256SUMS.txt)。当前 EXE 未做代码签名；APK 使用调试签名，适合个人试用，不适合直接作为正式商店版本发布。
+
 ## 安装与使用
 
 1. 安装 `PhoneGuard.apk`（Android 10 或更高版本）。在手机上打开 PhoneGuard，点击“扫描已安装应用”即可独立使用。
@@ -28,4 +36,3 @@ PhoneGuard 是一个供个人安装使用的 Windows + Android 双端安全检�
 - 需要用户主动开启 USB 调试或无线调试，PC 端不绕过手机授权。
 - 只在用户点击时扫描，没有后台监控和自动删除。
 - 暂未在实体手机上验证；具体 Samsung 系统版本可能影响报告路径读取或无线调试体验。
-
